@@ -24,6 +24,12 @@ make dockerup
 ```
 *Remember to run `make dockerdown` when you are done.*
 
+- Then install the node packages:
+
+```shell script
+yarn install
+```
+
 - Now apply the migrations:
 
 ```shell script
