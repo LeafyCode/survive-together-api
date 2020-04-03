@@ -1,0 +1,6 @@
+- args:
+    relationship: country
+    table:
+      name: district
+      schema: public
+  type: drop_relationship

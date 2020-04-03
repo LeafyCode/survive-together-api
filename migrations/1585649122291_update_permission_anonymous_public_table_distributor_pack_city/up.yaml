@@ -1,0 +1,14 @@
+- args:
+    permission:
+      allow_aggregations: false
+      columns:
+      - cityId
+      - distributorPackId
+      computed_fields: []
+      filter: {}
+      limit: null
+    role: anonymous
+    table:
+      name: distributor_pack_city
+      schema: public
+  type: create_select_permission

@@ -1,0 +1,10 @@
+- args:
+    cascade: false
+    read_only: false
+    sql: |-
+      alter table "public"."distributor_pack_city" drop constraint "distributor_pack_city_distributorPackId_fkey",
+                   add constraint "distributor_pack_city_distributorPackId_fkey"
+                   foreign key ("distributorPackId")
+                   references "public"."distributor_pack"
+                   ("id") on update cascade on delete cascade;
+  type: run_sql

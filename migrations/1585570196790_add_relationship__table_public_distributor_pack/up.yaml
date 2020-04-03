@@ -1,0 +1,12 @@
+- args:
+    name: distributor_pack_cities
+    table:
+      name: distributor_pack
+      schema: public
+    using:
+      foreign_key_constraint_on:
+        column: distributorPackId
+        table:
+          name: distributor_pack_city
+          schema: public
+  type: create_array_relationship

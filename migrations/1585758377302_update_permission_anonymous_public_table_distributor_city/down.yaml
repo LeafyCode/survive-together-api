@@ -1,0 +1,19 @@
+- args:
+    role: anonymous
+    table:
+      name: distributor_city
+      schema: public
+  type: drop_select_permission
+- args:
+    permission:
+      allow_aggregations: false
+      columns:
+      - cityId
+      - id
+      computed_fields: []
+      filter: {}
+    role: anonymous
+    table:
+      name: distributor_city
+      schema: public
+  type: create_select_permission

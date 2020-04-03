@@ -1,0 +1,15 @@
+- args:
+    cascade: false
+    read_only: false
+    sql: CREATE EXTENSION IF NOT EXISTS pgcrypto;
+  type: run_sql
+- args:
+    cascade: false
+    read_only: false
+    sql: CREATE TABLE "public"."country"("id" uuid NOT NULL DEFAULT gen_random_uuid(),
+      "name" varchar NOT NULL, PRIMARY KEY ("id") , UNIQUE ("name"));
+  type: run_sql
+- args:
+    name: country
+    schema: public
+  type: add_existing_table_or_view

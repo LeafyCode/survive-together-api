@@ -1,0 +1,5 @@
+- args:
+    cascade: false
+    read_only: false
+    sql: alter table "public"."distributor_item" drop constraint "distributor_item_distributorId_fkey";
+  type: run_sql

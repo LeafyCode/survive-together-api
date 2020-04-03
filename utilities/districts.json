@@ -1,0 +1,227 @@
+[
+    {
+      "id": "1",
+      "province_id": "6",
+      "name_en": "Ampara",
+      "name_si": "අම්පාර",
+      "name_ta": "அம்பாறை",
+      "isoDistrictCode": "52",
+      "districtId": "20ec8224-7451-4295-b98e-82e67cb78472"
+    },
+    {
+      "id": "2",
+      "province_id": "8",
+      "name_en": "Anuradhapura",
+      "name_si": "අනුරාධපුරය",
+      "name_ta": "அனுராதபுரம்",
+      "isoDistrictCode": "71",
+      "districtId": "d6143284-d9d6-49b0-a619-4e0d19f40e4b"
+    },
+    {
+      "id": "3",
+      "province_id": "7",
+      "name_en": "Badulla",
+      "name_si": "බදුල්ල",
+      "name_ta": "பதுளை",
+      "isoDistrictCode": "81",
+      "districtId": "e7c673f5-7776-4ede-bd13-fbf5c62dbceb"
+    },
+    {
+      "id": "4",
+      "province_id": "6",
+      "name_en": "Batticaloa",
+      "name_si": "මඩකලපුව",
+      "name_ta": "மட்டக்களப்பு",
+      "isoDistrictCode": "51",
+      "districtId": "ef2b82a5-6175-4ab6-a7d5-10e400263296"
+    },
+    {
+      "id": "5",
+      "province_id": "1",
+      "name_en": "Colombo",
+      "name_si": "කොළඹ",
+      "name_ta": "கொழும்பு",
+      "isoDistrictCode": "11",
+      "districtId": "76f9ea03-699e-4a2b-a988-f333d58d55a1"
+    },
+    {
+      "id": "6",
+      "province_id": "3",
+      "name_en": "Galle",
+      "name_si": "ගාල්ල",
+      "name_ta": "காலி",
+      "isoDistrictCode": "31",
+      "districtId": "bccdf2af-9433-4b88-a901-1b9071330741"
+    },
+    {
+      "id": "7",
+      "province_id": "1",
+      "name_en": "Gampaha",
+      "name_si": "ගම්පහ",
+      "name_ta": "கம்பஹா",
+      "isoDistrictCode": "12",
+      "districtId": "2fe3294f-1a9b-4f9e-b5a9-69c0c3cecb1e"
+    },
+    {
+      "id": "8",
+      "province_id": "3",
+      "name_en": "Hambantota",
+      "name_si": "හම්බන්තොට",
+      "name_ta": "அம்பாந்தோட்டை",
+      "isoDistrictCode": "33",
+      "districtId": "b6fed857-4d34-4f52-bfd3-67a21f338b98"
+    },
+    {
+      "id": "9",
+      "province_id": "9",
+      "name_en": "Jaffna",
+      "name_si": "යාපනය",
+      "name_ta": "யாழ்ப்பாணம்",
+      "isoDistrictCode": "41",
+      "districtId": "f0313bb0-6edf-4497-8e36-a11168abf9d5"
+    },
+    {
+      "id": "10",
+      "province_id": "1",
+      "name_en": "Kalutara",
+      "name_si": "කළුතර",
+      "name_ta": "களுத்துறை",
+      "isoDistrictCode": "13",
+      "districtId": "a5895ff5-8ea7-4f46-88b0-6561e06d1a9a"
+    },
+    {
+      "id": "11",
+      "province_id": "2",
+      "name_en": "Kandy",
+      "name_si": "මහනුවර",
+      "name_ta": "கண்டி",
+      "isoDistrictCode": "21",
+      "districtId": "46c2b064-34ce-4b03-a5b0-bc193986c922"
+    },
+    {
+      "id": "12",
+      "province_id": "5",
+      "name_en": "Kegalle",
+      "name_si": "කෑගල්ල",
+      "name_ta": "கேகாலை",
+      "isoDistrictCode": "92",
+      "districtId": "8ca396ed-9a8e-4d6d-9d67-6916e27115c4"
+    },
+    {
+      "id": "13",
+      "province_id": "9",
+      "name_en": "Kilinochchi",
+      "name_si": "කිලිනොච්චිය",
+      "name_ta": "கிளிநொச்சி",
+      "isoDistrictCode": "42",
+      "districtId": "1e39b899-9a59-45f7-badd-f149478b2b1c"
+    },
+    {
+      "id": "14",
+      "province_id": "4",
+      "name_en": "Kurunegala",
+      "name_si": "කුරුණෑගල",
+      "name_ta": "குருணாகல்",
+      "isoDistrictCode": "61",
+      "districtId": "2a0bb2c2-c376-4cd2-8bd6-b33a7eb7cd21"
+    },
+    {
+      "id": "15",
+      "province_id": "9",
+      "name_en": "Mannar",
+      "name_si": "මන්නාරම",
+      "name_ta": "மன்னார்",
+      "isoDistrictCode": "43",
+      "districtId": "4d00eaba-45aa-4715-b9cc-d0e400716b97"
+    },
+    {
+      "id": "16",
+      "province_id": "2",
+      "name_en": "Matale",
+      "name_si": "මාතලේ",
+      "name_ta": "மாத்தளை",
+      "isoDistrictCode": "22",
+      "districtId": "bb383ac4-9cf6-4f93-8559-b8e14e08da0b"
+    },
+    {
+      "id": "17",
+      "province_id": "3",
+      "name_en": "Matara",
+      "name_si": "මාතර",
+      "name_ta": "மாத்தறை",
+      "isoDistrictCode": "32",
+      "districtId": "d39c23c7-b035-4709-962c-8763b560397f"
+    },
+    {
+      "id": "18",
+      "province_id": "7",
+      "name_en": "Monaragala",
+      "name_si": "මොණරාගල",
+      "name_ta": "மொணராகலை",
+      "isoDistrictCode": "82",
+      "districtId": "02f12c3d-df59-494b-8c54-573750c4b6c8"
+    },
+    {
+      "id": "19",
+      "province_id": "9",
+      "name_en": "Mullaitivu",
+      "name_si": "මුලතිව්",
+      "name_ta": "முல்லைத்தீவு",
+      "isoDistrictCode": "45",
+      "districtId": "97fed986-deba-4974-805d-aa66963e025e"
+    },
+    {
+      "id": "20",
+      "province_id": "2",
+      "name_en": "Nuwara Eliya",
+      "name_si": "නුවර එළිය",
+      "name_ta": "நுவரேலியா",
+      "isoDistrictCode": "23",
+      "districtId": "4ace858c-ce3e-49ea-8fe3-bee058368c2e"
+    },
+    {
+      "id": "21",
+      "province_id": "8",
+      "name_en": "Polonnaruwa",
+      "name_si": "පොළොන්නරුව",
+      "name_ta": "பொலன்னறுவை",
+      "isoDistrictCode": "72",
+      "districtId": "ac8907da-bf0c-41e3-bea9-83ffa93590eb"
+    },
+    {
+      "id": "22",
+      "province_id": "4",
+      "name_en": "Puttalama",
+      "name_si": "පුත්තලම",
+      "name_ta": "புத்தளம்",
+      "isoDistrictCode": "62",
+      "districtId": "9a9d226f-ed15-4825-b83e-bee96b8b1e1a"
+    },
+    {
+      "id": "23",
+      "province_id": "5",
+      "name_en": "Ratnapura",
+      "name_si": "රත්නපුර",
+      "name_ta": "இரத்தினபுரி",
+      "isoDistrictCode": "91",
+      "districtId": "af0b07ec-ac3a-4cdf-b35e-84ee83c153fb"
+    },
+    {
+      "id": "24",
+      "province_id": "6",
+      "name_en": "Trincomalee",
+      "name_si": "ත්‍රිකුණාමලය",
+      "name_ta": "திருகோணமலை",
+      "isoDistrictCode": "53",
+      "districtId": "952ab7a3-895a-43f8-893d-fe861f9a2341"
+    },
+    {
+      "id": "25",
+      "province_id": "9",
+      "name_en": "Vavuniya",
+      "name_si": "වව්නියාව",
+      "name_ta": "வவுனியா",
+      "isoDistrictCode": "44",
+      "districtId": "bfa2c90b-17fd-48eb-bca3-47c5e569e85e"
+    }
+  ]

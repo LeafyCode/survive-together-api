@@ -1,0 +1,7 @@
+#- args:
+#    cascade: false
+#    read_only: false
+#    sql: |-
+#      CREATE EXTENSION postgis;
+#      CREATE EXTENSION postgis_topology;
+#  type: run_sql

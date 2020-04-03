@@ -1,0 +1,5 @@
+- args:
+    cascade: false
+    read_only: false
+    sql: ALTER TABLE "public"."city" DROP COLUMN "sourceId";
+  type: run_sql

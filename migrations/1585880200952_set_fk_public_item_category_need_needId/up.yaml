@@ -1,0 +1,10 @@
+- args:
+    cascade: false
+    read_only: false
+    sql: |-
+      alter table "public"."item_category_need" drop constraint "item_category_need_needId_fkey",
+                   add constraint "item_category_need_needId_fkey"
+                   foreign key ("needId")
+                   references "public"."need"
+                   ("id") on update cascade on delete cascade;
+  type: run_sql

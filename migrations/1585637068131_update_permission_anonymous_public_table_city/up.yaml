@@ -1,0 +1,17 @@
+- args:
+    permission:
+      allow_aggregations: false
+      columns:
+      - districtId
+      - id
+      - location
+      - name
+      - postcode
+      computed_fields: []
+      filter: {}
+      limit: null
+    role: anonymous
+    table:
+      name: city
+      schema: public
+  type: create_select_permission

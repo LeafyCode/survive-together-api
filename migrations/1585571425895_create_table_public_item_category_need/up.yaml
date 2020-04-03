@@ -1,0 +1,13 @@
+- args:
+    cascade: false
+    read_only: false
+    sql: CREATE TABLE "public"."item_category_need"("needId" uuid NOT NULL, "itemCategoryId"
+      uuid NOT NULL, PRIMARY KEY ("needId","itemCategoryId") , FOREIGN KEY ("needId")
+      REFERENCES "public"."need"("id") ON UPDATE restrict ON DELETE restrict, FOREIGN
+      KEY ("itemCategoryId") REFERENCES "public"."item_category"("id") ON UPDATE restrict
+      ON DELETE restrict);
+  type: run_sql
+- args:
+    name: item_category_need
+    schema: public
+  type: add_existing_table_or_view

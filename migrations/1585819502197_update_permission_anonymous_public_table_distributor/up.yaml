@@ -1,0 +1,25 @@
+- args:
+    role: anonymous
+    table:
+      name: distributor
+      schema: public
+  type: drop_insert_permission
+- args:
+    permission:
+      check: {}
+      columns:
+      - bannerImageUrl
+      - countryId
+      - email
+      - name
+      - phoneNumber
+      - website
+      localPresets:
+      - key: ""
+        value: ""
+      set: {}
+    role: anonymous
+    table:
+      name: distributor
+      schema: public
+  type: create_insert_permission

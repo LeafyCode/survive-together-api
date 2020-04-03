@@ -1,0 +1,7 @@
+- args:
+    cascade: false
+    read_only: false
+    sql: |-
+      DROP TRIGGER IF EXISTS "set_public_distributor_updated_at" ON "public"."distributor";
+      ALTER TABLE "public"."distributor" DROP COLUMN "updated_at";
+  type: run_sql

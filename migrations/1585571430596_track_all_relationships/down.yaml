@@ -1,0 +1,60 @@
+- args:
+    relationship: needs
+    table:
+      name: city
+      schema: public
+  type: drop_relationship
+- args:
+    relationship: distributor_items
+    table:
+      name: distributor
+      schema: public
+  type: drop_relationship
+- args:
+    relationship: distributor_packs
+    table:
+      name: distributor
+      schema: public
+  type: drop_relationship
+- args:
+    relationship: distributor
+    table:
+      name: distributor_item
+      schema: public
+  type: drop_relationship
+- args:
+    relationship: distributor
+    table:
+      name: distributor_pack
+      schema: public
+  type: drop_relationship
+- args:
+    relationship: item_category_needs
+    table:
+      name: item_category
+      schema: public
+  type: drop_relationship
+- args:
+    relationship: item_category
+    table:
+      name: item_category_need
+      schema: public
+  type: drop_relationship
+- args:
+    relationship: need
+    table:
+      name: item_category_need
+      schema: public
+  type: drop_relationship
+- args:
+    relationship: city
+    table:
+      name: need
+      schema: public
+  type: drop_relationship
+- args:
+    relationship: item_category_needs
+    table:
+      name: need
+      schema: public
+  type: drop_relationship

@@ -1,0 +1,40 @@
+- args:
+    name: distributors
+    table:
+      name: country
+      schema: public
+    using:
+      foreign_key_constraint_on:
+        column: countryId
+        table:
+          name: distributor
+          schema: public
+  type: create_array_relationship
+- args:
+    name: needs
+    table:
+      name: country
+      schema: public
+    using:
+      foreign_key_constraint_on:
+        column: countryId
+        table:
+          name: need
+          schema: public
+  type: create_array_relationship
+- args:
+    name: country
+    table:
+      name: distributor
+      schema: public
+    using:
+      foreign_key_constraint_on: countryId
+  type: create_object_relationship
+- args:
+    name: country
+    table:
+      name: need
+      schema: public
+    using:
+      foreign_key_constraint_on: countryId
+  type: create_object_relationship

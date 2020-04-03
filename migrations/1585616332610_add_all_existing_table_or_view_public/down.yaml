@@ -1,0 +1,15 @@
+- args:
+    table:
+      name: geography_columns
+      schema: public
+  type: untrack_table
+- args:
+    table:
+      name: geometry_columns
+      schema: public
+  type: untrack_table
+- args:
+    table:
+      name: spatial_ref_sys
+      schema: public
+  type: untrack_table

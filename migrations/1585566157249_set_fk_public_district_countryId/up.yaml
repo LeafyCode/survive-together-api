@@ -1,0 +1,10 @@
+- args:
+    cascade: false
+    read_only: false
+    sql: |-
+      alter table "public"."district"
+                 add constraint "district_countryId_fkey"
+                 foreign key ("countryId")
+                 references "public"."country"
+                 ("id") on update restrict on delete restrict;
+  type: run_sql

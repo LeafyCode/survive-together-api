@@ -1,0 +1,15 @@
+- args:
+    permission:
+      allow_aggregations: false
+      columns:
+      - cityId
+      - language
+      - text
+      computed_fields: []
+      filter: {}
+      limit: null
+    role: anonymous
+    table:
+      name: city_translation
+      schema: public
+  type: create_select_permission

@@ -1,0 +1,6 @@
+- args:
+    cascade: false
+    read_only: false
+    sql: ALTER TABLE "public"."distributor_pack" ADD COLUMN "distributorId" uuid NOT
+      NULL;
+  type: run_sql

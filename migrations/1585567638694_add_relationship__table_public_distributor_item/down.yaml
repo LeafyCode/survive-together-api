@@ -1,0 +1,6 @@
+- args:
+    relationship: item_category
+    table:
+      name: distributor_item
+      schema: public
+  type: drop_relationship

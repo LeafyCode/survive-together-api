@@ -1,0 +1,18 @@
+- args:
+    permission:
+      allow_aggregations: false
+      columns:
+      - content
+      - deliveryFee
+      - distributorId
+      - id
+      - name
+      - price
+      computed_fields: []
+      filter: {}
+      limit: null
+    role: anonymous
+    table:
+      name: distributor_pack
+      schema: public
+  type: create_select_permission

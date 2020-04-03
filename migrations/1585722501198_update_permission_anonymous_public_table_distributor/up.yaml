@@ -1,0 +1,20 @@
+- args:
+    permission:
+      allow_aggregations: false
+      columns:
+      - active
+      - countryId
+      - created_at
+      - email
+      - id
+      - name
+      - phoneNumber
+      - website
+      computed_fields: []
+      filter: {}
+      limit: null
+    role: anonymous
+    table:
+      name: distributor
+      schema: public
+  type: create_select_permission

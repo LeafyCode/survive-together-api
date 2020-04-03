@@ -1,0 +1,12 @@
+- args:
+    cascade: false
+    read_only: false
+    sql: CREATE TABLE "public"."district_translation"("districtId" uuid NOT NULL,
+      "language" bpchar NOT NULL, "text" varchar NOT NULL, PRIMARY KEY ("districtId","language")
+      , FOREIGN KEY ("districtId") REFERENCES "public"."district"("id") ON UPDATE
+      restrict ON DELETE restrict);
+  type: run_sql
+- args:
+    name: district_translation
+    schema: public
+  type: add_existing_table_or_view

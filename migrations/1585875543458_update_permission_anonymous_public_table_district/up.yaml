@@ -1,0 +1,21 @@
+- args:
+    role: anonymous
+    table:
+      name: district
+      schema: public
+  type: drop_select_permission
+- args:
+    permission:
+      allow_aggregations: false
+      columns:
+      - countryId
+      - id
+      - isoDistrictCode
+      - name
+      computed_fields: []
+      filter: {}
+    role: anonymous
+    table:
+      name: district
+      schema: public
+  type: create_select_permission

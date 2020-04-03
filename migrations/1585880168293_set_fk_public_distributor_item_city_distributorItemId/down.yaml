@@ -1,0 +1,12 @@
+- args:
+    cascade: false
+    read_only: false
+    sql: |-
+      alter table "public"."distributor_item_city" drop constraint "distributor_item_city_distributorItemId_fkey",
+                add constraint "distributor_item_city_distributorItemId_fkey"
+                foreign key ("distributorItemId")
+                references "public"."distributor_item"
+                ("id")
+                on update restrict
+                on delete restrict;
+  type: run_sql

@@ -1,0 +1,30 @@
+{
+  "name": "survive-together-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "LeafyCode",
+  "license": "GPL-3.0-only",
+  "dependencies": {
+    "apollo-boost": "^0.4.7",
+    "cross-fetch": "^3.0.4",
+    "dotenv": "^8.2.0",
+    "graphql": "^14.6.0",
+    "graphql-tag": "^2.10.3"
+  },
+  "scripts": {
+    "seed:districts": "node utilities/seedDistricts.js",
+    "seed:cities": "node utilities/seedCities.js",
+    "seed": "node utilities/seed.js"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0 || ^6.8.0",
+    "eslint-config-airbnb": "^18.1.0",
+    "eslint-config-prettier": "^6.10.1",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-react": "^7.19.0",
+    "eslint-plugin-react-hooks": "^2.5.0 || ^1.7.0",
+    "prettier": "^2.0.2"
+  }
+}

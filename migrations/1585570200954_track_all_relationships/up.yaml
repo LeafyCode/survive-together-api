@@ -1,0 +1,28 @@
+- args:
+    name: distributor_pack_cities
+    table:
+      name: city
+      schema: public
+    using:
+      foreign_key_constraint_on:
+        column: cityId
+        table:
+          name: distributor_pack_city
+          schema: public
+  type: create_array_relationship
+- args:
+    name: city
+    table:
+      name: distributor_pack_city
+      schema: public
+    using:
+      foreign_key_constraint_on: cityId
+  type: create_object_relationship
+- args:
+    name: distributor_pack
+    table:
+      name: distributor_pack_city
+      schema: public
+    using:
+      foreign_key_constraint_on: distributorPackId
+  type: create_object_relationship

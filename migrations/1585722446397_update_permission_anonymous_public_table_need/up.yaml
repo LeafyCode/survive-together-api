@@ -1,0 +1,20 @@
+- args:
+    permission:
+      allow_aggregations: false
+      columns:
+      - active
+      - cityId
+      - contactNumber
+      - contactPersonName
+      - countryId
+      - created_at
+      - id
+      - numberOfPeople
+      computed_fields: []
+      filter: {}
+      limit: null
+    role: anonymous
+    table:
+      name: need
+      schema: public
+  type: create_select_permission

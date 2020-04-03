@@ -1,0 +1,24 @@
+- args:
+    relationship: distributors
+    table:
+      name: country
+      schema: public
+  type: drop_relationship
+- args:
+    relationship: needs
+    table:
+      name: country
+      schema: public
+  type: drop_relationship
+- args:
+    relationship: country
+    table:
+      name: distributor
+      schema: public
+  type: drop_relationship
+- args:
+    relationship: country
+    table:
+      name: need
+      schema: public
+  type: drop_relationship

@@ -1,0 +1,12 @@
+- args:
+    name: districts
+    table:
+      name: country
+      schema: public
+    using:
+      foreign_key_constraint_on:
+        column: countryId
+        table:
+          name: district
+          schema: public
+  type: create_array_relationship

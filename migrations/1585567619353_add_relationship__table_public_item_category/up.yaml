@@ -1,0 +1,12 @@
+- args:
+    name: distributor_items
+    table:
+      name: item_category
+      schema: public
+    using:
+      foreign_key_constraint_on:
+        column: itemCategoryId
+        table:
+          name: distributor_item
+          schema: public
+  type: create_array_relationship

@@ -1,0 +1,13 @@
+- args:
+    cascade: false
+    read_only: false
+    sql: CREATE TABLE "public"."distributor_pack_city"("distributorPackId" uuid NOT
+      NULL, "cityId" uuid NOT NULL, PRIMARY KEY ("distributorPackId","cityId") , FOREIGN
+      KEY ("distributorPackId") REFERENCES "public"."distributor_pack"("id") ON UPDATE
+      restrict ON DELETE restrict, FOREIGN KEY ("cityId") REFERENCES "public"."city"("id")
+      ON UPDATE restrict ON DELETE restrict);
+  type: run_sql
+- args:
+    name: distributor_pack_city
+    schema: public
+  type: add_existing_table_or_view

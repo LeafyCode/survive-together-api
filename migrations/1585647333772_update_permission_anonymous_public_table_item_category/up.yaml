@@ -1,0 +1,14 @@
+- args:
+    permission:
+      allow_aggregations: false
+      columns:
+      - id
+      - name
+      computed_fields: []
+      filter: {}
+      limit: null
+    role: anonymous
+    table:
+      name: item_category
+      schema: public
+  type: create_select_permission

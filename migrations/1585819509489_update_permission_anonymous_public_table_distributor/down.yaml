@@ -1,0 +1,25 @@
+- args:
+    role: anonymous
+    table:
+      name: distributor
+      schema: public
+  type: drop_select_permission
+- args:
+    permission:
+      allow_aggregations: false
+      columns:
+      - active
+      - countryId
+      - created_at
+      - email
+      - id
+      - name
+      - phoneNumber
+      - website
+      computed_fields: []
+      filter: {}
+    role: anonymous
+    table:
+      name: distributor
+      schema: public
+  type: create_select_permission

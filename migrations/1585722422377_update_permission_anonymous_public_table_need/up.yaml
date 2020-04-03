@@ -1,0 +1,19 @@
+- args:
+    permission:
+      allow_upsert: true
+      check: {}
+      columns:
+      - cityId
+      - contactNumber
+      - contactPersonName
+      - countryId
+      - numberOfPeople
+      localPresets:
+      - key: ""
+        value: ""
+      set: {}
+    role: anonymous
+    table:
+      name: need
+      schema: public
+  type: create_insert_permission

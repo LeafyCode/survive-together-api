@@ -1,0 +1,20 @@
+- args:
+    name: district_translations
+    table:
+      name: district
+      schema: public
+    using:
+      foreign_key_constraint_on:
+        column: districtId
+        table:
+          name: district_translation
+          schema: public
+  type: create_array_relationship
+- args:
+    name: district
+    table:
+      name: district_translation
+      schema: public
+    using:
+      foreign_key_constraint_on: districtId
+  type: create_object_relationship

@@ -1,0 +1,12 @@
+- args:
+    name: geography_columns
+    schema: public
+  type: add_existing_table_or_view
+- args:
+    name: geometry_columns
+    schema: public
+  type: add_existing_table_or_view
+- args:
+    name: spatial_ref_sys
+    schema: public
+  type: add_existing_table_or_view

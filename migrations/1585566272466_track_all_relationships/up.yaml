@@ -1,0 +1,8 @@
+- args:
+    name: country
+    table:
+      name: district
+      schema: public
+    using:
+      foreign_key_constraint_on: countryId
+  type: create_object_relationship

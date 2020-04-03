@@ -1,0 +1,100 @@
+- args:
+    name: needs
+    table:
+      name: city
+      schema: public
+    using:
+      foreign_key_constraint_on:
+        column: cityId
+        table:
+          name: need
+          schema: public
+  type: create_array_relationship
+- args:
+    name: distributor_items
+    table:
+      name: distributor
+      schema: public
+    using:
+      foreign_key_constraint_on:
+        column: distributorId
+        table:
+          name: distributor_item
+          schema: public
+  type: create_array_relationship
+- args:
+    name: distributor_packs
+    table:
+      name: distributor
+      schema: public
+    using:
+      foreign_key_constraint_on:
+        column: distributorId
+        table:
+          name: distributor_pack
+          schema: public
+  type: create_array_relationship
+- args:
+    name: distributor
+    table:
+      name: distributor_item
+      schema: public
+    using:
+      foreign_key_constraint_on: distributorId
+  type: create_object_relationship
+- args:
+    name: distributor
+    table:
+      name: distributor_pack
+      schema: public
+    using:
+      foreign_key_constraint_on: distributorId
+  type: create_object_relationship
+- args:
+    name: item_category_needs
+    table:
+      name: item_category
+      schema: public
+    using:
+      foreign_key_constraint_on:
+        column: itemCategoryId
+        table:
+          name: item_category_need
+          schema: public
+  type: create_array_relationship
+- args:
+    name: item_category
+    table:
+      name: item_category_need
+      schema: public
+    using:
+      foreign_key_constraint_on: itemCategoryId
+  type: create_object_relationship
+- args:
+    name: need
+    table:
+      name: item_category_need
+      schema: public
+    using:
+      foreign_key_constraint_on: needId
+  type: create_object_relationship
+- args:
+    name: city
+    table:
+      name: need
+      schema: public
+    using:
+      foreign_key_constraint_on: cityId
+  type: create_object_relationship
+- args:
+    name: item_category_needs
+    table:
+      name: need
+      schema: public
+    using:
+      foreign_key_constraint_on:
+        column: needId
+        table:
+          name: item_category_need
+          schema: public
+  type: create_array_relationship

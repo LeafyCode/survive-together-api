@@ -1,0 +1,16 @@
+- args:
+    cascade: false
+    read_only: false
+    sql: CREATE EXTENSION IF NOT EXISTS pgcrypto;
+  type: run_sql
+- args:
+    cascade: false
+    read_only: false
+    sql: CREATE TABLE "public"."distributor_city"("id" uuid NOT NULL DEFAULT gen_random_uuid(),
+      "cityId" uuid NOT NULL, PRIMARY KEY ("id") , FOREIGN KEY ("cityId") REFERENCES
+      "public"."city"("id") ON UPDATE restrict ON DELETE restrict);
+  type: run_sql
+- args:
+    name: distributor_city
+    schema: public
+  type: add_existing_table_or_view

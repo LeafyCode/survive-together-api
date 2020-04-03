@@ -1,0 +1,20 @@
+- args:
+    name: city_translations
+    table:
+      name: city
+      schema: public
+    using:
+      foreign_key_constraint_on:
+        column: cityId
+        table:
+          name: city_translation
+          schema: public
+  type: create_array_relationship
+- args:
+    name: city
+    table:
+      name: city_translation
+      schema: public
+    using:
+      foreign_key_constraint_on: cityId
+  type: create_object_relationship

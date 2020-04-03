@@ -1,0 +1,12 @@
+- args:
+    relationship: district_translations
+    table:
+      name: district
+      schema: public
+  type: drop_relationship
+- args:
+    relationship: district
+    table:
+      name: district_translation
+      schema: public
+  type: drop_relationship

@@ -1,0 +1,5 @@
+- args:
+    cascade: false
+    read_only: false
+    sql: alter table "public"."district" drop constraint "district_countryId_fkey";
+  type: run_sql
