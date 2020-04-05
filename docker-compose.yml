@@ -15,7 +15,7 @@ services:
   graphql-engine:
     image: hasura/graphql-engine:v1.1.1
     ports:
-      - "8080:8080"
+      - ${HASURA_GRAPHQL_PORT:-8080}:8080 # get port value from env if not use default port 8080
     depends_on:
       - "postgres"
     restart: always
